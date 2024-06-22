@@ -1,0 +1,45 @@
+﻿@model IEnumerable<FinalProject___Nicolas.Models.Carrinho>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Carrinho</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                #@Html.DisplayNameFor(model => model.CarrinhoId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Cliente)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TotalCarrinho)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                     <b>#@item.CarrinhoId</b>
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Cliente.NomeCliente)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TotalCarrinho)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.CarrinhoId">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.CarrinhoId">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.CarrinhoId">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

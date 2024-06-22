@@ -1,0 +1,59 @@
+﻿@model IEnumerable<FinalProject___Nicolas.Models.CategoriaProduto>
+
+@{
+    ViewData["Title"] = "Categoria";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Criar Categoria</a>
+</p>
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.NomeCategoria)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DescricaoCategoria)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Ativa)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            @if (item.Ativa)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.NomeCategoria)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.DescricaoCategoria)
+                    </td>
+                    <td>
+                        @if (item.Ativa)
+                        {
+                            <b>Sim</b>
+                        }
+                        else
+                        {
+                            <b>Não</b>
+                        }
+                    </td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.CategoriaProdutoId">Editar</a> |
+                        <a asp-action="Details" asp-route-id="@item.CategoriaProdutoId">Detalhes</a> |
+                        <a asp-action="Delete" asp-route-id="@item.CategoriaProdutoId">Excluir</a>
+                    </td>
+                </tr>
+            }
+
+        }
+    </tbody>
+</table>
