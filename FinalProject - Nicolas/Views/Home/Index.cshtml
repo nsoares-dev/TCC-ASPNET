@@ -1,8 +1,57 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
+﻿@model IEnumerable<FinalProject___Nicolas.Models.Produto>
+
+@{
+    ViewData["Title"] = "Index";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<div class="row row-cols-1 row-cols-md-3 g-4">
+    @foreach (var produto in Model)
+    {
+        @if (produto.Disponivel)
+        {
+            <div class="col">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">@produto.ProdutoNome</h5>
+                        <p class="card-text">Preço: @produto.ProdutoPreco.ToString("C")</p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#produtoModal_@produto.ProdutoId">
+                            Detalhes
+                        </button>
+                    </div>
+                </div>
+            </div>
+        }
+    }
+    @foreach (var produto in Model)
+    {
+        <div class="modal fade" id="produtoModal_@produto.ProdutoId" tabindex="-1" aria-labelledby="produtoModalLabel_@produto.ProdutoId" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="produtoModalLabel_@produto.ProdutoId">@produto.ProdutoNome</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img class="card-img-top" src="@produto.ImagemUrl" />
+                        <p>
+                            <strong>Preço:</strong> @produto.ProdutoPreco
+                        </p>
+                        <p>
+                            <strong>Avaliação:</strong>
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+
+
 </div>

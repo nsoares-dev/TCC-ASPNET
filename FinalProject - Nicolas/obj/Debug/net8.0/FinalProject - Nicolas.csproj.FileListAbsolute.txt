@@ -260,3 +260,4 @@ D:\ASP MVC\FinalProject - Nicolas\FinalProject - Nicolas\bin\Debug\net8.0\runtim
 D:\ASP MVC\FinalProject - Nicolas\FinalProject - Nicolas\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 D:\ASP MVC\FinalProject - Nicolas\FinalProject - Nicolas\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
 D:\ASP MVC\FinalProject - Nicolas\FinalProject - Nicolas\obj\Debug\net8.0\FinalProject - Nicolas.MvcApplicationPartsAssemblyInfo.cs
+D:\ASP MVC\FinalProject - Nicolas\FinalProject - Nicolas\obj\Debug\net8.0\FinalProject - Nicolas.sourcelink.json

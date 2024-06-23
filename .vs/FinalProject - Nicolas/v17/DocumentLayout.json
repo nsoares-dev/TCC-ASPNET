@@ -3,28 +3,36 @@
   "WorkspaceRootPath": "D:\\ASP MVC\\FinalProject - Nicolas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B44CEE72-0338-42FC-A0B6-29502BB91F24}|FinalProject - Nicolas\\FinalProject - Nicolas.csproj|d:\\asp mvc\\finalproject - nicolas\\finalproject - nicolas\\models\\vendedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B44CEE72-0338-42FC-A0B6-29502BB91F24}|FinalProject - Nicolas\\FinalProject - Nicolas.csproj|solutionrelative:finalproject - nicolas\\models\\vendedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B44CEE72-0338-42FC-A0B6-29502BB91F24}|FinalProject - Nicolas\\FinalProject - Nicolas.csproj|d:\\asp mvc\\finalproject - nicolas\\finalproject - nicolas\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B44CEE72-0338-42FC-A0B6-29502BB91F24}|FinalProject - Nicolas\\FinalProject - Nicolas.csproj|solutionrelative:finalproject - nicolas\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B44CEE72-0338-42FC-A0B6-29502BB91F24}|FinalProject - Nicolas\\FinalProject - Nicolas.csproj|d:\\asp mvc\\finalproject - nicolas\\finalproject - nicolas\\controllers\\vendedorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B44CEE72-0338-42FC-A0B6-29502BB91F24}|FinalProject - Nicolas\\FinalProject - Nicolas.csproj|solutionrelative:finalproject - nicolas\\controllers\\vendedorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B44CEE72-0338-42FC-A0B6-29502BB91F24}|FinalProject - Nicolas\\FinalProject - Nicolas.csproj|d:\\asp mvc\\finalproject - nicolas\\finalproject - nicolas\\views\\produtos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B44CEE72-0338-42FC-A0B6-29502BB91F24}|FinalProject - Nicolas\\FinalProject - Nicolas.csproj|solutionrelative:finalproject - nicolas\\views\\produtos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B44CEE72-0338-42FC-A0B6-29502BB91F24}|FinalProject - Nicolas\\FinalProject - Nicolas.csproj|d:\\asp mvc\\finalproject - nicolas\\finalproject - nicolas\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B44CEE72-0338-42FC-A0B6-29502BB91F24}|FinalProject - Nicolas\\FinalProject - Nicolas.csproj|solutionrelative:finalproject - nicolas\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B44CEE72-0338-42FC-A0B6-29502BB91F24}|FinalProject - Nicolas\\FinalProject - Nicolas.csproj|d:\\asp mvc\\finalproject - nicolas\\finalproject - nicolas\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B44CEE72-0338-42FC-A0B6-29502BB91F24}|FinalProject - Nicolas\\FinalProject - Nicolas.csproj|solutionrelative:finalproject - nicolas\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B44CEE72-0338-42FC-A0B6-29502BB91F24}|FinalProject - Nicolas\\FinalProject - Nicolas.csproj|d:\\asp mvc\\finalproject - nicolas\\finalproject - nicolas\\views\\produtos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B44CEE72-0338-42FC-A0B6-29502BB91F24}|FinalProject - Nicolas\\FinalProject - Nicolas.csproj|solutionrelative:finalproject - nicolas\\views\\produtos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B44CEE72-0338-42FC-A0B6-29502BB91F24}|FinalProject - Nicolas\\FinalProject - Nicolas.csproj|d:\\asp mvc\\finalproject - nicolas\\finalproject - nicolas\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B44CEE72-0338-42FC-A0B6-29502BB91F24}|FinalProject - Nicolas\\FinalProject - Nicolas.csproj|solutionrelative:finalproject - nicolas\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\ASP MVC\\FinalProject - Nicolas\\FinalProject - Nicolas\\Migrations\\20240622203506_pseresolve.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FinalProject - Nicolas\\Migrations\\20240622203506_pseresolve.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B44CEE72-0338-42FC-A0B6-29502BB91F24}|FinalProject - Nicolas\\FinalProject - Nicolas.csproj|d:\\asp mvc\\finalproject - nicolas\\finalproject - nicolas\\views\\home\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B44CEE72-0338-42FC-A0B6-29502BB91F24}|FinalProject - Nicolas\\FinalProject - Nicolas.csproj|solutionrelative:finalproject - nicolas\\views\\home\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B44CEE72-0338-42FC-A0B6-29502BB91F24}|FinalProject - Nicolas\\FinalProject - Nicolas.csproj|d:\\asp mvc\\finalproject - nicolas\\finalproject - nicolas\\views\\vendedores\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B44CEE72-0338-42FC-A0B6-29502BB91F24}|FinalProject - Nicolas\\FinalProject - Nicolas.csproj|solutionrelative:finalproject - nicolas\\views\\vendedores\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B44CEE72-0338-42FC-A0B6-29502BB91F24}|FinalProject - Nicolas\\FinalProject - Nicolas.csproj|d:\\asp mvc\\finalproject - nicolas\\finalproject - nicolas\\validators\\validatorcnpjcpf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B44CEE72-0338-42FC-A0B6-29502BB91F24}|FinalProject - Nicolas\\FinalProject - Nicolas.csproj|solutionrelative:finalproject - nicolas\\validators\\validatorcnpjcpf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B44CEE72-0338-42FC-A0B6-29502BB91F24}|FinalProject - Nicolas\\FinalProject - Nicolas.csproj|d:\\asp mvc\\finalproject - nicolas\\finalproject - nicolas\\views\\home\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B44CEE72-0338-42FC-A0B6-29502BB91F24}|FinalProject - Nicolas\\FinalProject - Nicolas.csproj|solutionrelative:finalproject - nicolas\\views\\home\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,85 +42,104 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\ASP MVC\\FinalProject - Nicolas\\FinalProject - Nicolas\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "FinalProject - Nicolas\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\ASP MVC\\FinalProject - Nicolas\\FinalProject - Nicolas\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "FinalProject - Nicolas\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-23T21:51:38.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ASP MVC\\FinalProject - Nicolas\\FinalProject - Nicolas\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "FinalProject - Nicolas\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\ASP MVC\\FinalProject - Nicolas\\FinalProject - Nicolas\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "FinalProject - Nicolas\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAsAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-23T21:50:13.253Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\ASP MVC\\FinalProject - Nicolas\\FinalProject - Nicolas\\Views\\Vendedores\\Index.cshtml",
-              "RelativeDocumentMoniker": "FinalProject - Nicolas\\Views\\Vendedores\\Index.cshtml",
-              "ToolTip": "D:\\ASP MVC\\FinalProject - Nicolas\\FinalProject - Nicolas\\Views\\Vendedores\\Index.cshtml",
-              "RelativeToolTip": "FinalProject - Nicolas\\Views\\Vendedores\\Index.cshtml",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAACoAAABDAAAA",
+              "DocumentMoniker": "D:\\ASP MVC\\FinalProject - Nicolas\\FinalProject - Nicolas\\Views\\Produtos\\Index.cshtml",
+              "RelativeDocumentMoniker": "FinalProject - Nicolas\\Views\\Produtos\\Index.cshtml",
+              "ToolTip": "D:\\ASP MVC\\FinalProject - Nicolas\\FinalProject - Nicolas\\Views\\Produtos\\Index.cshtml",
+              "RelativeToolTip": "FinalProject - Nicolas\\Views\\Produtos\\Index.cshtml",
+              "ViewState": "AQIAABEAAAAAAAAAAAAowDgAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-22T20:41:34.143Z",
+              "WhenOpened": "2024-06-23T21:49:04.932Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\ASP MVC\\FinalProject - Nicolas\\FinalProject - Nicolas\\Views\\Home\\Edit.cshtml",
+              "RelativeDocumentMoniker": "FinalProject - Nicolas\\Views\\Home\\Edit.cshtml",
+              "ToolTip": "D:\\ASP MVC\\FinalProject - Nicolas\\FinalProject - Nicolas\\Views\\Home\\Edit.cshtml",
+              "RelativeToolTip": "FinalProject - Nicolas\\Views\\Home\\Edit.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAABwAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-23T21:31:37.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\ASP MVC\\FinalProject - Nicolas\\FinalProject - Nicolas\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "FinalProject - Nicolas\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\ASP MVC\\FinalProject - Nicolas\\FinalProject - Nicolas\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "FinalProject - Nicolas\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwCoAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T21:28:34.453Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "ValidatorCNPJCPF.cs",
-              "DocumentMoniker": "D:\\ASP MVC\\FinalProject - Nicolas\\FinalProject - Nicolas\\Validators\\ValidatorCNPJCPF.cs",
-              "RelativeDocumentMoniker": "FinalProject - Nicolas\\Validators\\ValidatorCNPJCPF.cs",
-              "ToolTip": "D:\\ASP MVC\\FinalProject - Nicolas\\FinalProject - Nicolas\\Validators\\ValidatorCNPJCPF.cs",
-              "RelativeToolTip": "FinalProject - Nicolas\\Validators\\ValidatorCNPJCPF.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA4AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T20:38:18.814Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Vendedor.cs",
-              "DocumentMoniker": "D:\\ASP MVC\\FinalProject - Nicolas\\FinalProject - Nicolas\\Models\\Vendedor.cs",
-              "RelativeDocumentMoniker": "FinalProject - Nicolas\\Models\\Vendedor.cs",
-              "ToolTip": "D:\\ASP MVC\\FinalProject - Nicolas\\FinalProject - Nicolas\\Models\\Vendedor.cs",
-              "RelativeToolTip": "FinalProject - Nicolas\\Models\\Vendedor.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T20:36:33.796Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "VendedoresController.cs",
-              "DocumentMoniker": "D:\\ASP MVC\\FinalProject - Nicolas\\FinalProject - Nicolas\\Controllers\\VendedoresController.cs",
-              "RelativeDocumentMoniker": "FinalProject - Nicolas\\Controllers\\VendedoresController.cs",
-              "ToolTip": "D:\\ASP MVC\\FinalProject - Nicolas\\FinalProject - Nicolas\\Controllers\\VendedoresController.cs",
-              "RelativeToolTip": "FinalProject - Nicolas\\Controllers\\VendedoresController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T20:36:28.981Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "ProdutosController.cs",
               "DocumentMoniker": "D:\\ASP MVC\\FinalProject - Nicolas\\FinalProject - Nicolas\\Controllers\\ProdutosController.cs",
               "RelativeDocumentMoniker": "FinalProject - Nicolas\\Controllers\\ProdutosController.cs",
               "ToolTip": "D:\\ASP MVC\\FinalProject - Nicolas\\FinalProject - Nicolas\\Controllers\\ProdutosController.cs",
               "RelativeToolTip": "FinalProject - Nicolas\\Controllers\\ProdutosController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAACoAAAAAAAAAAAAYwEUAAABEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T20:36:28.416Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-23T21:28:27.261Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "20240622203506_pseresolve.cs",
-              "DocumentMoniker": "D:\\ASP MVC\\FinalProject - Nicolas\\FinalProject - Nicolas\\Migrations\\20240622203506_pseresolve.cs",
-              "RelativeDocumentMoniker": "FinalProject - Nicolas\\Migrations\\20240622203506_pseresolve.cs",
-              "ToolTip": "D:\\ASP MVC\\FinalProject - Nicolas\\FinalProject - Nicolas\\Migrations\\20240622203506_pseresolve.cs",
-              "RelativeToolTip": "FinalProject - Nicolas\\Migrations\\20240622203506_pseresolve.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T20:35:06.554Z",
-              "EditorCaption": ""
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\ASP MVC\\FinalProject - Nicolas\\FinalProject - Nicolas\\Views\\Produtos\\Create.cshtml",
+              "RelativeDocumentMoniker": "FinalProject - Nicolas\\Views\\Produtos\\Create.cshtml",
+              "ToolTip": "D:\\ASP MVC\\FinalProject - Nicolas\\FinalProject - Nicolas\\Views\\Produtos\\Create.cshtml",
+              "RelativeToolTip": "FinalProject - Nicolas\\Views\\Produtos\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-23T21:26:14.196Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\ASP MVC\\FinalProject - Nicolas\\FinalProject - Nicolas\\Views\\Home\\Create.cshtml",
+              "RelativeDocumentMoniker": "FinalProject - Nicolas\\Views\\Home\\Create.cshtml",
+              "ToolTip": "D:\\ASP MVC\\FinalProject - Nicolas\\FinalProject - Nicolas\\Views\\Home\\Create.cshtml",
+              "RelativeToolTip": "FinalProject - Nicolas\\Views\\Home\\Create.cshtml",
+              "ViewState": "AQIAABYAAAAAAAAAAAAqwC8AAAByAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-23T21:24:37.244Z"
             }
           ]
         }

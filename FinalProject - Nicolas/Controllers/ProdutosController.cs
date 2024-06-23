@@ -15,10 +15,12 @@ namespace FinalProject___Nicolas.Controllers
     public class ProdutosController : Controller
     {
         private readonly FinalProject___NicolasContext _context;
+        private readonly ILogger<ProdutosController> _logger;
 
-        public ProdutosController(FinalProject___NicolasContext context)
+        public ProdutosController(FinalProject___NicolasContext context, ILogger<ProdutosController> logger)
         {
             _context = context;
+            _logger = logger;
         }
 
         public async Task<IActionResult> Index()
@@ -47,6 +49,8 @@ namespace FinalProject___Nicolas.Controllers
         public IActionResult Create()
         {
             ViewData["CategoriaProdutoId"] = new SelectList(_context.Set<CategoriaProduto>(), "NomeCategoria", "NomeCategoria");
+            ViewBag.CategoriasDisponiveis = CategoriasDisponiveis();
+
             return View();
         }
 
@@ -55,6 +59,7 @@ namespace FinalProject___Nicolas.Controllers
         [Authorize(Roles = "Vendedor, Administrator")]
         public async Task<IActionResult> Create([Bind("ProdutoId,ProdutoNome,ProdutoPreco,Estoque,Disponivel,PrecoDesconto,ImagemUrl,CategoriaProdutoId")] Produto produto)
         {
+
             if (ModelState.IsValid)
             {
                 _context.Add(produto);
@@ -62,8 +67,21 @@ namespace FinalProject___Nicolas.Controllers
                 return RedirectToAction(nameof(Index));
             }
             ViewData["CategoriaProdutoId"] = new SelectList(_context.Set<CategoriaProduto>(), "NomeCategoria", "NomeCategoria", produto.CategoriaProdutoId);
+            ViewBag.CategoriasDisponiveis = CategoriasDisponiveis();
             return View(produto);
         }
+
+        private List<SelectListItem> CategoriasDisponiveis()
+        {
+            var catDisponivel = _context.CategoriaProduto.Where(c=> c.Ativa).Select(c=> new SelectListItem
+            {
+                Value = c.CategoriaProdutoId.ToString(),
+                Text = c.NomeCategoria
+            }).ToList();
+            
+            return catDisponivel;
+        }
+
 
         [Authorize(Roles = "Vendedor, Administrator")]
         public async Task<IActionResult> Edit(int? id)

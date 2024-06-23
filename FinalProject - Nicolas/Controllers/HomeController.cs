@@ -2,6 +2,7 @@ using FinalProject___Nicolas.Data;
 using FinalProject___Nicolas.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using System.Diagnostics;
 
@@ -20,11 +21,13 @@ namespace FinalProject___Nicolas.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            var produtos = _context.Produto.Where(p => p.Disponivel).ToList();
+            return View(produtos);
         }
 
         public IActionResult Create()
         {
+            ViewBag.CategoriasDisponiveis = CategoriasDisponiveis();
             return View();
         }
 
@@ -86,10 +89,22 @@ namespace FinalProject___Nicolas.Controllers
 
                 return RedirectToAction(nameof(Index));
             }
-
+            ViewBag.CategoriasDisponiveis = CategoriasDisponiveis();
             _logger.LogInformation("ModelState é inválido");
             return View(produto);
         }
+
+        private List<SelectListItem> CategoriasDisponiveis()
+        {
+            var catDisponivel = _context.CategoriaProduto.Where(c => c.Ativa).Select(c => new SelectListItem
+            {
+                Value = c.CategoriaProdutoId.ToString(),
+                Text = c.NomeCategoria
+            }).ToList();
+
+            return catDisponivel;
+        }
+
 
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -129,17 +144,6 @@ namespace FinalProject___Nicolas.Controllers
                 return RedirectToAction(nameof(Index));
             }
             return View(produto);
-        }
-
-        public IActionResult Privacy()
-        {
-            return View();
-        }
-
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
         private bool ProdutoExists(int id)
         {

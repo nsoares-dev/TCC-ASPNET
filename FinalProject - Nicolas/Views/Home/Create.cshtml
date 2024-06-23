@@ -1,8 +1,9 @@
-﻿@model FinalProject___Nicolas.Models.Produto
+﻿@model FinalProject___Nicolas.Models.Produto;
 
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Criar Produto";
 }
+
 
 <h1>Cadastrar Produto</h1>
 
@@ -10,7 +11,8 @@
 <hr />
 <div class="row">
     <div class="col-md-4">
-        <form asp-action="Create" enctype="multipart/form-data" method="post">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
                 <label asp-for="ProdutoNome" class="control-label"></label>
                 <input asp-for="ProdutoNome" class="form-control" />
@@ -38,12 +40,12 @@
             </div>
             <div class="form-group">
                 <label asp-for="Imagem" class="control-label"></label>
-                <input asp-for="Imagem" class="form-control" type="file" />
+                <input asp-for="Imagem" class="form-control" type="file"/>
                 <span asp-validation-for="Imagem" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="CategoriaProduto" class="control-label"></label>
-                <select asp-for="CategoriaProdutoId" class="form-control" asp-items="ViewBag.CategoriaProdutoId"></select>
+                <select asp-for="CategoriaProdutoId" class="form-control" asp-items="ViewBag.CategoriasDisponiveis"></select>
             </div>
             <div class="form-group">
                 <input type="submit" value="Cadastrar" class="btn btn-primary" />
@@ -53,9 +55,11 @@
 </div>
 
 <div>
-    <a asp-action="Index">Voltar</a>
+    <a asp-action="Index">Back to List</a>
 </div>
 
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
 }
